@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    }
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: top right;
+    padding: 20px;
+    background-color:white;
+}
+
+nav{
+    margin-top: 0px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    display: inline;
+    padding-right: 30px;
+}
+
+section{
+    margin: 40px 20px;
+}
+
+#Welcome{
+    background-image: image();
+    color: #000000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#Welcome h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    padding: 130px;
+}
+
+#about,#programs,#faculty,#contact{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    background-color: #00007e;
+    color: #fff;
+    padding: 1em 0;
+    text-align: left, right;
+}
