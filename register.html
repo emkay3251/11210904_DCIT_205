@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short Course Registration Form</title>
+    <link rel="stylesheet" href="register.css">
+
+</head>
+<body>
+
+<div class="container">
+    <h2>Short Course Registration Form</h2>
+    <p>Please fill this form to register for short courses organized by the University of Ghana Computer Science Department</p>
+
+    <form>
+        <label for="email">Email (Not shared)</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="surname">Enter Surname</label>
+        <input type="text" id="surname" name="surname" required>
+
+        <label for="firstName">Enter First Name</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="phone">Enter Phone number</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="eduBackground">Educational Background</label>
+        <input type="text" id="primarySchool" name="primarySchool" placeholder="Primary School">
+        <input type="text" id="secondarySchool" name="secondarySchool" placeholder="Secondary School">
+        <input type="text" id="bachelorsDegree" name="bachelorsDegree" placeholder="Bachelor's Degree">
+        <input type="text" id="mastersDegree" name="mastersDegree" placeholder="Master's Degree">
+        <input type="text" id="phd" name="phd" placeholder="PhD">
+
+        <label for="orgInfo">Organisation Information</label>
+        <input type="text" id="organisation" name="organisation" placeholder="Enter Organisation">
+        <input type="text" id="position" name="position" placeholder="Position">
+
+        <label for="courses">Short Courses</label>
+        <select id="courses" name="courses" multiple>
+            <option value="sql">Microsoft SQL Server Database Administration (₵ 995)</option>
+            <option value="linux">Linux Administration (₵ 995)</option>
+            <option value="infoSec">Information Security and Ethical Hacking (₵ 995)</option>
+            <option value="webProg">Introduction to Web Programming (₵ 900)</option>
+            <option value="digitalMarketing">Digital Marketing (₵ 900)</option>
+            <option value="softwareDev">Certificate in Software Development (₵ 1500)</option>
+            <option value="phoneRepair">Phone and Laptop Repairs (₵ 1000)</option>
+            <option value="oracleDB">Oracle Database Administration (₵ 995)</option>
+            <option value="dataScience">Data Science (₵ 1500)</option>
+            <option value="ccna">Computer Networking Fundamentals - CCNA (₵ 995)</option>
+            <option value="msOffice">Introduction to Microsoft Office Suite (₵ 750)</option>
+            <option value="mobileDev">Mobile Application Development (₵ 1000)</option>
+            <option value="isAudit">Certificate in Information Systems Audit (₵ 995)</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
