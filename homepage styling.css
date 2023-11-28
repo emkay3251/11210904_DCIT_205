@@ -2,17 +2,22 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
-    background-color: white;
+    background-image: url(background.webp);
     }
 
 header{
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    text-align: top right;
-    padding: 20px;
     background-color:white;
+    padding: 30px;
+    text-align: center;
+}
+
+header div{
+    height: 80px;
+    width: page;
+    background-color: #00007e;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
 }
 
 nav{
@@ -38,25 +43,48 @@ section{
     margin: 40px 20px;
 }
 
-#Welcome{
-    background-image: image();
-    color: #000000;
-    text-align: center;
-    padding: 100px 0;
-}
-
 #Welcome h2{
+    padding: 40px;
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-    padding: 130px;
+    background-color: #00007e;
+    color: white;
+    text-align: center;
 }
 
-#about,#programs,#faculty,#contact{
+.m4{
+    background-color: white;
+    color: rgb(81, 81, 255);
+    border-color: rgb(81, 81, 255);
+    width: 100px;
+    height: 50px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    
+    transition: background-color 1s,
+    color 0.15s;
+}
+
+.m4:hover{
+    background-color:  rgb(81, 81, 255);
+    color: white;   
+}
+
+.m4:active{
+    opacity: 0.7;
+}
+
+#ShortCourses,#UndergraduateProgrammes,#MPhilandMscProgrammes,#PhDprogrammes{
     background-color: #fff;
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 footer{

@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    color: #00007e;
+}
+
+h1 {
+    margin-right: 20px;
+    display: inline;
+    font-size: 50px;
+    text-decoration: underline;
+    color: #00007e;
+}
+
+h3{
+    color: #00007e;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4{
+    color: #00007e;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h5{
+    object-position: center;
+}
+
+nav {
+    display: inline;
+    color: red;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00007e;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    display: inline;
+    padding-right: 30px;
+}
+
+section {
+    margin: 20px;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.essay, p {
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
