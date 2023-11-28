@@ -22,6 +22,13 @@ University of Ghana Computer Science Department Website
 
 
 3. SCREENSHOTS OF WEBPAGES:
+![Local Image]("C:\Users\USER\Downloads\Web capture_28-11-2023_212427_.jpeg")
+![Local Image]("C:\Users\USER\Downloads\Web capture_28-11-2023_212330_.jpeg")
+![Local Image]("C:\Users\USER\Downloads\Web capture_28-11-2023_212250_.jpeg")
+![Local Image]("C:\Users\USER\Downloads\Web capture_28-11-2023_212233_.jpeg")
+![Local Image]("C:\Users\USER\Downloads\Web capture_28-11-2023_212141_.jpeg")
+
+
 
 
 
